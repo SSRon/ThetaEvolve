@@ -81,7 +81,8 @@ cd ..
 You could check our tasks in `openevolve_adapted/examples`. It is easy to extend to more tasks with continous objective values.
 
 ## Run
-To run the experiments, you could change the parameters in `run.sh`, and then directly run `bash run.sh`
+To run the experiments, you could change the parameters in `run.sh`, and then directly run `bash run.sh` (Notably, for 8B model, we need at least 8x80G GPUs like A100s).
+
 
 Fist, remember to set the save_path to store ckpts:
 
